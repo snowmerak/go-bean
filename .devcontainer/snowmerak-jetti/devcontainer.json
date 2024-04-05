@@ -1,0 +1,9 @@
+{
+  "name": "snowmerak-jetti",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "snowmerak-jetti",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose"
+}

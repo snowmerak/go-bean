@@ -1,0 +1,8 @@
+version: '3'
+services:
+  snowmerak-jetti:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../../.:/workspace:cached
